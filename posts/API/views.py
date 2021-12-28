@@ -12,9 +12,8 @@ from rest_framework.generics import (
 from rest_framework.response import Response
 
 from rest_framework.views import APIView
-from rest_framework.request import Request
 from rest_framework import status as s
-from django.shortcuts import get_list_or_404
+
 
 from ..models import Post, Comment
 from ..serializers import PostSerializer, CommentSerializer
